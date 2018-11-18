@@ -1,0 +1,14 @@
+{
+  "name": "youtube-tv-electron",
+  "version": "1.0.0",
+  "description": "YouTube TV",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Vitaliy Zabrodin",
+  "devDependencies": {
+    "electron": "^2.0.8"
+  },
+  "dependencies": {}
+}

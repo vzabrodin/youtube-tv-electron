@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+    <meta charset="utf-8" />
+    <title>YouTube TV</title>
+
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="material-icons.css">
+    <link rel="stylesheet" href="window.css">
+</head>
+
+<body style="height: 100%;">
+    <div id="main-grid">
+        <div id="title-bar" class="grey lighten-2">
+            <div id="title" class="window-button">
+                <img class="title-icon" src="favicon.ico">
+            </div>
+            <div id="title-bar-btns">
+                <button id="minimize-btn" class="window-button waves-effect waves-teal btn-flat grey lighten-2">
+                    <i class="material-icons">minimize</i>
+                </button>
+                <button id="maximize-btn" class="window-button waves-effect waves-teal btn-flat grey lighten-2">
+                    <i class="material-icons">fullscreen</i>
+                </button>
+                <button id="close-btn" class="window-button waves-effect waves-red btn-flat grey lighten-2">
+                    <i class="material-icons">close</i>
+                </button>
+            </div>
+        </div>
+
+        <webview id="content" src="https://youtube.com/tv" />
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
